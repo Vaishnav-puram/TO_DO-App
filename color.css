@@ -1,0 +1,18 @@
+.header{
+    background-color: aliceblue;
+}
+.content{
+    background-color: aqua;
+}
+.footer{
+    background-color:bisque ;
+}
+.button{
+    background-color:darkgoldenrod;
+}
+.box .box-header{
+    background-color:#dddd;
+}
+.button_container div{
+    background-color: white;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="color.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="heading">JIRA</div>
+            <div class="button">
+                <div class="plus" id="plus_button">+</div>
+            </div>
+
+        </div>
+        <div class="content">
+            <!-- <div class="box">
+                <div class="box-header">
+                    <div class="title">
+                        todo
+                    </div>
+
+                    <div class="min">-</div>
+                    <div class="button_container">
+                        <button>x</button>
+                    </div>
+
+                </div>
+                <textarea class="todo_text"></textarea>
+            </div> -->
+        </div>
+        <div class="footer">Footer</div>
+    </div>
+    <div class="dialog-box" id="dialog_Box">
+        <div class="dialog">
+            <div class="dialog-header">
+                <div class="dialog-heading">
+                    <span>Enter title</span>
+                    <input type="text" placeholder="enter title here" id="title_text">
+                </div>
+                <div class="min">-</div>
+                <div class="cross" id="cross_button">x</div>
+            </div>
+            <div class="dialog-body">
+                <textarea id="todo_text" placeholder="enter text here"></textarea>
+            </div>
+            <div class="submit">
+                <div class="disappear">
+                    <span style="color: red;">Title & Text can't be empty!!</span>
+                </div>
+                <button onclick="addTodo()">submit</button>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
